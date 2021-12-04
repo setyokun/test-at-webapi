@@ -1,0 +1,15 @@
+ {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "7835 new road"
+        },
+        "id": 11,
+        "email": "John@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "phone": "1-570-236-7033"
+    }

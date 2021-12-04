@@ -1,0 +1,14 @@
+{
+  "userId": 4,
+  "date": "2020-02-03T00:00:00.000Z",
+  "products": [
+      {
+          "productId": 5,
+          "quantity": 1
+      },
+      {
+          "productId": 1,
+          "quantity": 5
+      }
+  ]
+}

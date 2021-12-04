@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "geolocation": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "string"
+            },
+            "long": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "lat",
+            "long"
+          ]
+        },
+        "city": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "geolocation",
+        "city",
+        "street"
+      ]
+    },
+    "_id": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "address",
+    "_id",
+    "id",
+    "email",
+    "username",
+    "password",
+    "phone"
+  ]
+}

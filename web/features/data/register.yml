@@ -1,0 +1,4 @@
+register_data:
+  wrong_format_email: kaitokuroba
+  password: 123456
+  mismatch_password: 1234567
